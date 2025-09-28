@@ -1,5 +1,4 @@
 package Tree;
-import TreeNode.java.*;
 import java.util.*;
 class BalancedBinarytree {
     public static boolean isBalanced(TreeNode root) {
@@ -15,7 +14,7 @@ class BalancedBinarytree {
         return 1+ Math.max(maxDepth(root.left), maxDepth(root.right));
     }
 
-    public static int maxDepth(TreeNode node){
+    public static void main(TreeNode node){
     	TreeNode one = new TreeNode(3);
 		TreeNode two = new TreeNode(9);
 		TreeNode three = new TreeNode(20);
