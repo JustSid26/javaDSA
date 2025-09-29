@@ -1,10 +1,11 @@
 package Queue;
+import java.util.*;
 class MyQueue {
-	Stack<Integer> stack1;
-	Stack<Integer> stack2;
+	Stack<Integer> s1;
+	Stack<Integer> s2;
     public MyQueue() {
-        stack1 = new LinkedList<>();
-        satck2 = new LinkedList<>();
+        s1 = new Stack<>();
+        s2 = new Stack<>();
     }
     
     public void push(int x) {

@@ -1,4 +1,4 @@
-package NumberProblems;
+
 class powerOfFour{
     static boolean isPowerOfFour(int n){
         while(n!=1){
