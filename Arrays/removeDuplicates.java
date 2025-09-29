@@ -1,5 +1,4 @@
 package Arrays;
-
 public class removeDuplicates {
     public int removeElements(int[] nums){
         if(nums.length == 0)

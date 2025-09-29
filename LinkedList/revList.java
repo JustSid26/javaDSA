@@ -1,11 +1,11 @@
 class StackNode{
 	public StackNode head = null;
-	public StacKNode next;
+	public StackNode next;
 	public int val;
 	public StackNode(){
 
 	}
-	public StackNode(int val, ListNode next){
+	public StackNode(int val, StackNode next){
 		this.val = val;
 		this.next = next;
 	}
