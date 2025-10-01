@@ -4,7 +4,9 @@ public class PathSum2 {
     List<Integer> solution = new ArrayList<>();
     List<List<Integer>> result = new ArrayList<>();
     public List<List<Integer>> pathSum(TreeNode root, int targetSum){
-        
+        if(root == null) return result;
+        function(root, targetSum);
+        return result;
     }
     public void function(TreeNode node, int targetSum){
         if(node == null) return;
