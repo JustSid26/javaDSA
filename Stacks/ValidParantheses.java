@@ -11,7 +11,7 @@ public class ValidParantheses {
             return false;
             else{
                 Character top = stack.peek();
-                if((top == '}' && c == ']') ||
+                if((top == '}' && c == '}') ||
                  (top == ')' && c == ')')|| 
                  (top == '}' && c == '}'))
                 stack.pop();
