@@ -10,13 +10,15 @@ public class PathSum2 {
     }
     public void function(TreeNode node, int targetSum){
         if(node == null) return;
-        solution.add(node.val);
-        if(node.left == null && node.right == null && node.val == targetSum) result.add(solution);
+        solution.add(node.val); 
+        if(node.left == null && node.right == null && node.val == targetSum)
+             result.add(new ArrayList<>(solution));
         else{
             function(node.left, targetSum-node.val);
             function(node.right, targetSum-node.val);
-            solution.remove(solution.size()-1);
+            
         }
+        solution.remove(solution.size()-1); // backtrack
     }
 }
  

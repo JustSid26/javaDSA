@@ -17,7 +17,7 @@ public class ValidParantheses {
                 stack.pop();
                 else
                 return false;
-            }
+            }z
         }
         return stack.isEmpty();
     }    

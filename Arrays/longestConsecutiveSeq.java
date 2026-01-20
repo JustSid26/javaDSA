@@ -29,4 +29,7 @@ public class longestConsecutiveSeq {
         }
         return maxCount;
     }
+    public static void main(String args[]){
+        
+    }
 }
