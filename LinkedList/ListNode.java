@@ -20,7 +20,6 @@ public class ListNode {
         newNode.next = head;
         head = newNode;
     }
-
     public static void insertAtEnd(ListNode newNode){
         ListNode curr = head;
 
